@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@config '../../tailwind.config.js';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --light-text: #000; 
+    --dark-text: #fff;
+    --light-dd: #B7410E;
+    --dark-dd: #FF7F50;
+    --light-h-dd: #99320C;
+    --dark-h-dd: #E76E45;
+    --light-third: #008080;
+    --light-h-third: #006d6d;
+    --dark-third: #007BA7;
+    --light-link: #0000ff;
+    --dark-link: #4ea1ff;
+}
+
+body{
+    @apply antialiased text-base w-full h-full overflow-x-hidden bg-white text-[var(--light-text)] dark:bg-black dark:text-[var(--dark-text)];
+}
+
+svg{
+    @apply fill-(--light-text) dark:fill-(--dark-text);
+}

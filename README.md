@@ -1,46 +1,95 @@
-# Astro Starter Kit: Basics
+# 🚀 Astro + React + Tailwind Starter Template
 
-```sh
-npm create astro@latest -- --template basics
-```
+A modern starter template built with **Astro**, **React**, and **Tailwind CSS** — designed for speed, scalability, and developer experience.  
+This template comes pre-configured with dark mode, SEO utilities, reusable components, and a clean folder structure to kickstart your next project.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## ✨ Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- ⚡ **Astro + React** integration for hybrid rendering
+- 🎨 **Tailwind CSS** with custom classes & dark mode support
+- 📱 **PWA-ready** with `site.webmanifest`
+- 🧩 Prebuilt **Navbar** and **Footer** components
+- 📂 Organized folder structure in `/src`
+- 🗂 Config-driven pages & social media links (`/src/config`)
+- 🔗 **Icons** support via `icons.tsx` and `iconsJson.ts`
+- 🖼 **Layout.astro** for consistent page structure
+- 🌙 Dark mode toggle with `theme-scripts.js`
+- 🔍 SEO-ready with `default.ts` and `Head.astro`
+- 🌐 Global styles via `global.css`
 
-```text
-/
+---
+
+# 🚀 Astro + React + Tailwind Starter Template
+
+A modern starter template built with **Astro**, **React**, and **Tailwind CSS** — designed for speed, scalability, and developer experience.  
+This template comes pre-configured with dark mode, SEO utilities, reusable components, and a clean folder structure to kickstart your next project.
+
+---
+
+## ✨ Features
+
+- ⚡ **Astro + React** integration for hybrid rendering
+- 🎨 **Tailwind CSS** with custom classes & dark mode support
+- 📱 **PWA-ready** with `site.webmanifest`
+- 🧩 Prebuilt **Navbar** and **Footer** components
+- 📂 Organized folder structure in `/src`
+- 🗂 Config-driven pages & social media links (`/src/config`)
+- 🔗 **Icons** support via `icons.tsx` and `iconsJson.ts`
+- 🖼 **Layout.astro** for consistent page structure
+- 🌙 Dark mode toggle with `theme-scripts.js`
+- 🔍 SEO-ready with `default.ts` and `Head.astro`
+- 🌐 Global styles via `global.css`
+
+---
+
+## 📁 Folder Structure
+
+```bash
+.
+├── astro.config.mjs        
+├── tailwind.config.mjs
+├── tsconfig.json            
+├── package.json
+├── package-lock.json
+├── README.md
+├── .env
+├── .gitignore
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+│   ├── favicon.svg
+│   └── site.webmanifest      
+├── src/
+│   ├── assets/
+│   │   ├── astro.svg
+│   │   └── background.svg
+│   ├── components/
+│   │   ├── Navbar/
+│   │   │   └── Navbar.tsx
+│   │   ├── Footer/
+│   │   │   └── Footer.tsx
+│   │   └── icons.tsx
+│   ├── config/
+│   │   ├── Pages/
+│   │   │   └── default.ts
+│   │   ├── SocialMedia/
+│   │   │   └── socialLinks.ts
+│   │   └── iconsJson.ts
+│   ├── data/                 
+│   ├── DBFunctions/          
+│   ├── icons/                
+│   ├── layouts/
+│   │   └── Layout.astro
+│   ├── pages/
+│   │   ├── index.astro
+│   │   └── about.astro
+│   ├── scripts/
+│   │   └── theme-scripts.js  
+│   ├── SEO/
+│   │   ├── Head.astro        
+│   │   └── default.ts        
+│   ├── styles/
+│   │   └── global.css       
+│   ├── types/                
+│   └── utils/                
+│   └── Welcome.astro         
