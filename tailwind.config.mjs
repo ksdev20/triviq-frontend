@@ -16,6 +16,11 @@ export default {
           justifyContent: "center",
           alignItems: "center",
         },
+        ".column": {
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        },
       });
     },
   ],

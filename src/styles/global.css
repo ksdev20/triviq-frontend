@@ -1,14 +1,20 @@
 @import "tailwindcss";
-@config '../../tailwind.config.js';
+@plugin '../../hero.ts';
+@source '../../node_modules/@heroui/theme/dist/**/*.{js, ts, jsx, tsx}';
+@config '../../tailwind.config.mjs';
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --light-text: #000; 
+:root {
+    --navbar-bg: #fef7d6;
+    --navbar-secondary-text: #374151;
+    --accent: #1E3A8A;
+    --primary: #3b82f6;
+    --light-text: #000;
     --dark-text: #fff;
     --light-dd: #B7410E;
     --dark-dd: #FF7F50;
@@ -21,10 +27,22 @@
     --dark-link: #4ea1ff;
 }
 
-body{
-    @apply antialiased text-base w-full h-full overflow-x-hidden bg-white text-[var(--light-text)] dark:bg-black dark:text-[var(--dark-text)];
+body {
+    @apply antialiased text-base w-full h-full overflow-x-hidden ;
 }
 
-svg{
+svg {
     @apply fill-(--light-text) dark:fill-(--dark-text);
+}
+
+.btn{
+    @apply cp flex-center px-6 py-1.5 rounded-3xl font-semibold;
+}
+
+.btn.primary{
+    @apply text-white bg-(--primary);
+}
+
+.btn.secondary{
+    @apply text-black bg-transparent border border-black;
 }
