@@ -3,15 +3,19 @@
 
 .navbar {
     font-family: 'Sora';
-    @apply relative z-50 flex flex-col items-center justify-center w-full bg-[var(--navbar-bg)] select-none;
+    @apply sticky top-0 left-0 z-50 flex flex-col items-center justify-center w-full bg-[var(--navbar-bg)] select-none;
 }
 
 .mobile-navbar-container {
     @apply w-full flex items-center justify-between md:hidden px-5 py-1;
 }
 
+.nav-buttons{
+    @apply flex items-center gap-3;
+}
+
 .pc-navbar-container {
-    @apply hidden md:flex;
+    @apply w-full max-w-7xl hidden md:flex items-center px-10 py-3 justify-between;
 }
 
 .nav-btn {
@@ -50,70 +54,10 @@
     @apply flex items-center py-2 pl-5 cursor-pointer font-semibold;
 }
 
-.mobile-nav-menu a:hover {
+.navbar a:hover:not(.btn){
     @apply text-[var(--accent)];
 }
 
-/* Smooth Bounce In Animation */
-@keyframes bounceIn {
-    0% {
-        opacity: 0;
-        transform: scale(0.3) translateY(200px);
-    }
-
-    50% {
-        opacity: 1;
-        transform: scale(1.05) translateY(-10px);
-    }
-
-    100% {
-        transform: scale(1) translateY(0);
-    }
-}
-
-.bounce-in {
-    display: flex;
-    animation: bounceIn 0.8s ease-out forwards;
-}
-
-/* Smooth Bounce Out Animation */
-@keyframes bounceOut {
-    0% {
-        opacity: 1;
-        transform: scale(1) translateY(0);
-    }
-
-    20% {
-        transform: scale(0.95) translateY(-5px);
-    }
-
-    50% {
-        transform: scale(1.05) translateY(10px);
-        opacity: 1;
-    }
-
-    70% {
-        transform: scale(0.9) translateY(-20px);
-        opacity: 0.7;
-    }
-
-    100% {
-        opacity: 0;
-        transform: scale(0.3) translateY(200px);
-    }
-}
-
-.bounce-out {
-    display: none;
-    animation: bounceOut 0.8s ease-in forwards;
-}
-
-
-/* .logo-sec{
-    @apply
-}
-
 .nav-links{
-    @apply
+    @apply flex items-center gap-4;
 }
- */

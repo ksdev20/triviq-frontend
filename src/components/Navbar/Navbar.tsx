@@ -3,10 +3,11 @@ import { BoolStateHook } from "../hooks/BoolStateHooks";
 import "../../styles/components/Navbar.css";
 import {
   homeLink,
-  menuVariants,
   navMenu,
   playLink,
   NavMenuAnimationVariants,
+  loginLink,
+  signupLink,
 } from "../../config/components/Navbar";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -43,27 +44,31 @@ export function Navbar() {
             ))}
             <li className="border-t border-t-[#e5e7eb] mb-5"></li>
             <li>
-              <a href="/signup">Sign Up</a>
+              <a href={signupLink}>Sign Up</a>
             </li>
             <li>
-              <a href="/login">Login</a>
+              <a href={loginLink}>Login</a>
             </li>
           </motion.ul>
         )}
       </AnimatePresence>
 
       <div className="pc-navbar-container">
-        <div className="logo-sec">
-          <img src="" alt="" />
-          <div></div>
+        <a href={homeLink} className="logo-sec">
+          <div className="part1">Triv</div>
+          <div className="part2">IQ</div>
+        </a>
+        <ul className="nav-links">
+          {navMenu.map((i, idx) => (
+            <li key={idx}>
+              <a href={i.link}>{i.label}</a>
+            </li>
+          ))}
+        </ul>
+        <div className="nav-buttons">
+          <a href={signupLink} className="btn outlined">Sign Up</a>
+          <a href={playLink} className="btn primary">Play</a>
         </div>
-        <div className="nav-links">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">How it works</a>
-          <a href="#">Resources</a>
-        </div>
-        <button className="btn primary">Play</button>
       </div>
     </nav>
   );

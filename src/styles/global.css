@@ -36,7 +36,7 @@ svg {
 }
 
 .btn{
-    @apply cp flex-center px-6 py-1.5 rounded-3xl font-semibold;
+    @apply cp flex-center px-4 py-1.5 rounded-3xl font-semibold;
 }
 
 .btn.primary{
@@ -45,4 +45,8 @@ svg {
 
 .btn.secondary{
     @apply text-black bg-transparent border border-black;
+}
+
+.btn.outlined{
+    @apply border
 }

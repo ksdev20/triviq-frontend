@@ -1,5 +1,3 @@
-import { frontendUrl } from "../../data/globalData";
-
 export const navMenu = [
   {
     label: "Home",
@@ -7,49 +5,38 @@ export const navMenu = [
   },
   {
     label: "About",
-    link: frontendUrl + "/about",
+    link: "/about",
   },
   {
     label: "How it works",
-    link: frontendUrl + "/how-it-work",
+    link: "/how-it-work",
   },
 ];
 
 export const navRightButtons = [
   {
     label: "Sign in",
-    link: frontendUrl + "/sign-in",
+    link: "/sign-in",
   },
   {
     label: "Play",
-    link: frontendUrl + "/lobby",
+    link: "/lobby",
   },
 ];
 
 export const homeLink = "/";
-export const playLink = "/play";
-
-export const menuVariants = {
-  hidden: { opacity: 0, scale: 0.3, y: 0 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: { type: "spring", stiffness: 500, damping: 30 },
-  },
-  exit: {
-    opacity: 0,
-    scale: 0.3,
-    y: 200,
-    transition: { duration: 0.5, ease: "easeIn" },
-  },
-};
+export const playLink = navRightButtons[1].link;
+export const signupLink = "/signup";
+export const loginLink = "/login";
 
 export const NavMenuAnimationVariants = {
   hidden: {
-    opacity: 0,
-    scale: 0.3,
-    y: 200,
+    opacity: [0, 0],
+    scale: [0.3, 0.3],
+    y: [200, 200],
+    transition: {
+      duration: 0.01, // instant hide
+    },
   },
   visible: {
     opacity: [0, 0.7, 1, 1, 1],
