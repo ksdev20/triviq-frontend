@@ -1,6 +1,9 @@
 @import "tailwindcss";
+<<<<<<< HEAD
 @plugin '../../hero.ts';
 @source '../../node_modules/@heroui/theme/dist/**/*.{js, ts, jsx, tsx}';
+=======
+>>>>>>> 081f72c1adaad7975cd51bd4303a8837296a43b1
 @config '../../tailwind.config.mjs';
 
 * {
