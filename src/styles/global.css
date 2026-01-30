@@ -28,7 +28,7 @@
 }
 
 body {
-    @apply antialiased text-base w-full h-full overflow-x-hidden ;
+    @apply flex flex-col antialiased text-base w-full h-full overflow-x-hidden ;
 }
 
 svg {

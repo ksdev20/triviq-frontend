@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+.footer{
+    @apply select-none w-full h-fit flex flex-col items-center justify-center mt-auto;
+}
+
+.footer-container{
+    @apply flex flex-col items-start gap-5 sm:gap-10 w-full h-fit px-5 sm:px-10 py-10 sm:py-20;
+}
+
+.footer-main{
+    @apply w-full border border-gray-500 rounded-2xl p-10 lg:py-20 flex flex-col sm:flex-row gap-10 sm:gap-20 md:gap-30 lg:gap-40 items-start;
+}
+
+.footer-main .logo-sec{
+    @apply text-2xl cursor-default;
+}
+
+.links-sec{
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 sm:gap-20;
+}
+
+.links-sec header{
+    @apply text-xl font-semibold mb-2 sm:mb-5;
+}
+
+.footer-col{
+    @apply flex flex-col gap-3;
+}
+
+.footer-bottom{
+    @apply w-full grid grid-cols-1 gap-5 sm:grid-cols-2 items-start;
+}
+
+.legal-links{
+    @apply flex gap-3 items-center;
+}
+
+.footer a:hover{
+    @apply underline;
+}

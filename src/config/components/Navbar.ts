@@ -39,23 +39,23 @@ export const NavMenuAnimationVariants = {
     },
   },
   visible: {
-    opacity: [0, 0.7, 1, 1, 1],
-    scale: [0.3, 1.05, 0.95, 1.02, 1],
-    y: [200, -10, 5, -2, 0],
+    opacity: [0, 1],
+    scale: [0.3, 1.0],
+    y: [200, 0],
     transition: {
-      duration: 0.8,
+      duration: 0.3,
       ease: "easeOut",
-      times: [0, 0.2, 0.5, 0.7, 1],
+      times: [0, 1],
     },
   },
   exit: {
-    opacity: [1, 1, 1, 0.7, 0],
-    scale: [1, 0.95, 1.05, 0.9, 0.3],
-    y: [0, -5, 10, -20, 200],
+    opacity: [1, 0],
+    scale: [1, 0.3],
+    y: [0, 200],
     transition: {
-      duration: 0.8,
+      duration: 0.3,
       ease: "easeIn",
-      times: [0, 0.2, 0.5, 0.7, 1],
+      times: [0, 1],
     },
   },
 };

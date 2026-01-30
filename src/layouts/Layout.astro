@@ -1,5 +1,6 @@
 ---
 import { Navbar }from "../components/Navbar/Navbar";
+import { Footer }from "../components/Footer/Footer";
 // import Footer from "../components/Footer/Footer";
 import "../styles/global.css";
 import Head from "../SEO/Head.astro";
@@ -9,9 +10,9 @@ import Head from "../SEO/Head.astro";
   <Head />
   <body>
     <Navbar client:only />
-    <main class="main-body">
+    <main class="main-body"> 
       <slot />
     </main>
-    <!-- <Footer /> -->
+    <Footer />
   </body>
 </html>
