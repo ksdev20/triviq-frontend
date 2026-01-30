@@ -1,7 +1,11 @@
 @import 'tailwindcss';
 
 .features-section{
-    @apply w-full bg-[var(--navbar-bg)] flex flex-col gap-10 items-center;
+    @apply w-full bg-[var(--navbar-bg)] flex flex-col py-10 sm:py-20 lg:py-30 gap-10 items-center;
+}
+
+.features-section.rewards{
+    @apply bg-white;
 }
 
 .features-section img{
