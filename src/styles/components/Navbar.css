@@ -36,8 +36,7 @@
 }
 
 .mobile-nav-menu {
-    @apply rounded-b-3xl flex flex-col w-full py-5 absolute z-40 top-[100%] left-0 bg-[var(--navbar-bg)];
-    /* animation: come-in 2s ease; */
+    @apply rounded-b-3xl flex flex-col w-full py-5 absolute z-40 top-[100%] left-0 bg-[var(--navbar-sidebar)];
 }
 
 @keyframes come-in {
