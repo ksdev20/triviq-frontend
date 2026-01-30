@@ -30,29 +30,33 @@
 }
 
 body {
-    @apply flex flex-col antialiased text-base w-full h-full overflow-x-hidden ;
+    @apply flex flex-col antialiased text-base w-full h-full overflow-x-hidden;
 }
 
 svg {
     @apply fill-(--light-text) dark:fill-(--dark-text);
 }
 
-.btn{
+.btn {
     @apply cp flex-center px-4 py-1.5 rounded-3xl font-semibold;
 }
 
-.btn.primary{
+.btn.primary {
     @apply text-white bg-(--primary);
 }
 
-.btn.primary:hover{
+.btn.primary:hover {
     @apply bg-(--primary-hover);
 }
 
-.btn.secondary{
+.btn.secondary {
     @apply text-black bg-transparent border border-black;
 }
 
-.btn.outlined{
-    @apply border
+.btn.outlined {
+    @apply border;
+}
+
+.consistent-padding-x {
+    @apply px-10 sm:px-20 md:px-30 lg:px-40 xl:px-60;
 }

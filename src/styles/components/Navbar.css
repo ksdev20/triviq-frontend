@@ -53,7 +53,7 @@
     @apply flex items-center py-2 pl-5 cursor-pointer font-semibold;
 }
 
-.navbar a:hover:not(.btn){
+.navbar a:hover:not(.btn):not(.logo-sec){
     @apply text-[var(--accent)];
 }
 

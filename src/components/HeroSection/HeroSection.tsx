@@ -3,7 +3,7 @@ import '../../styles/components/HeroSection.css'
 export function HeroSection() {
   return (
     <section className="hero-section">
-      <div className="hs-container">
+      <div className="hs-container consistent-padding-x">
         <div className="text-section">
           <h1>Test your knowledge against players worldwide</h1>
           <p className="hero-subtitle">

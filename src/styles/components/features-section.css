@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+.features-section{
+    @apply w-full bg-[var(--navbar-bg)] flex flex-col gap-10 items-center;
+}
+
+.features-section img{
+    @apply select-none;
+}
+
+.features-cards{
+    @apply grid grid-cols-1 lg:grid-cols-2 justify-center gap-10 sm:gap-5;
+}
+
+.features-cards .g2{
+    @apply grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-5;
+}
+
+.features-section .text-section{
+    @apply flex flex-col items-center gap-1;
+}
+
+.features-section .text-section span{
+    @apply font-bold;
+}
+
+.features-section .text-section h2{
+    font-family: 'Space Mono';
+    @apply text-3xl font-semibold max-w-[250px] sm:max-w-none text-center;
+}
+
+/*FeatureCard styles*/
+.feature-card{
+    @apply overflow-hidden flex flex-col justify-between gap-5 border border-gray-600 rounded-xl max-h-[400px];
+}
+
+.feature-card .text-section{
+    @apply flex flex-col items-start gap-1 px-5 pt-5 max-w-sm;
+}
+
+.feature-card .text-section span{
+    @apply font-bold;
+}
+
+.feature-card .text-section h3{
+    font-family: 'Space Mono';
+    @apply font-semibold text-2xl text-start max-w-none;
+}
+
+.feature-card img{
+    @apply aspect-video lg:aspect-square object-cover object-bottom rounded-b-xl max-w-[400px];
+}
+
+/*Feature card variant: img-right*/
+.feature-card.img-right{
+    @apply md:flex-row;
+}
+
+.feature-card.img-right img{
+    @apply md:aspect-square md:object-right md:rounded-b-none md:rounded-r-xl;
+}
