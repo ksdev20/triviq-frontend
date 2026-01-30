@@ -11,7 +11,7 @@
 
 .hs-container h1{
     font-family: 'Space Mono';
-    @apply text-4xl lg:text-5xl 2xl:text-6xl font-bold uppercase;
+    @apply text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold uppercase;
 }
 
 .hs-container .text-section {

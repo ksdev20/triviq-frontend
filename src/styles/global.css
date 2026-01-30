@@ -16,6 +16,7 @@
     --accent: #1E3A8A;
     --primary: #3b82f6;
     --primary-hover: #2563eb;
+    --secondary: #d2e7f9;
     --light-text: #000;
     --dark-text: #fff;
     --light-dd: #B7410E;
@@ -59,4 +60,9 @@ svg {
 
 .consistent-padding-x {
     @apply px-10 sm:px-20 md:px-30 lg:px-40 xl:px-60;
+}
+
+h2{
+    font-family: 'Space Mono';
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
 }

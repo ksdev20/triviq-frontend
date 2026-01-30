@@ -21,16 +21,20 @@
 }
 
 .features-section .text-section{
-    @apply flex flex-col items-center gap-1;
+    @apply flex flex-col items-center gap-3 sm:gap-5 md:gap-6;
 }
 
 .features-section .text-section span{
-    @apply font-bold;
+    @apply font-bold md:text-xl xl:text-2xl;
 }
 
 .features-section .text-section h2{
     font-family: 'Space Mono';
-    @apply text-3xl font-semibold max-w-[250px] sm:max-w-none text-center;
+    @apply font-semibold max-w-[250px] sm:max-w-none text-center;
+}
+
+.features-section .text-section p{
+    @apply text-base md:text-xl xl:text-2xl;
 }
 
 /*FeatureCard styles*/
@@ -39,7 +43,7 @@
 }
 
 .feature-card .text-section{
-    @apply flex flex-col items-start gap-1 px-5 pt-5 max-w-sm;
+    @apply flex flex-col items-start px-5 pt-5 max-w-sm;
 }
 
 .feature-card .text-section span{
@@ -49,6 +53,10 @@
 .feature-card .text-section h3{
     font-family: 'Space Mono';
     @apply font-semibold text-2xl text-start max-w-none;
+}
+
+.feature-card .text-section p{
+    @apply md:text-xl
 }
 
 .feature-card img{
