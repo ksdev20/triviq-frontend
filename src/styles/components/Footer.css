@@ -33,7 +33,7 @@
 }
 
 .legal-links{
-    @apply flex gap-3 items-center;
+    @apply flex gap-3 sm:gap-6 items-center;
 }
 
 .footer a:hover{

@@ -14,6 +14,7 @@
     --navbar-secondary-text: #374151;
     --accent: #1E3A8A;
     --primary: #3b82f6;
+    --primary-hover: #2563eb;
     --light-text: #000;
     --dark-text: #fff;
     --light-dd: #B7410E;
@@ -41,6 +42,10 @@ svg {
 
 .btn.primary{
     @apply text-white bg-(--primary);
+}
+
+.btn.primary:hover{
+    @apply bg-(--primary-hover);
 }
 
 .btn.secondary{

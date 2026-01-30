@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'tailwindcss';
+
+.hero-section {
+    @apply w-full flex items-center justify-center bg-[var(--navbar-bg)];
+}
+
+.hs-container {
+    @apply w-full flex flex-col items-center gap-10 sm:gap-20 px-10 py-10 sm:py-20 sm:px-20 md:px-30 lg:px-40  xl:px-60 md:py-30 xl:py-40 text-center;
+}
+
+.hs-container h1{
+    font-family: 'Space Mono';
+    @apply text-4xl lg:text-5xl 2xl:text-6xl font-bold uppercase;
+}
+
+.hs-container .text-section {
+    @apply flex flex-col items-center gap-5 max-w-sm sm:max-w-lg lg:max-w-xl xl:max-w-3xl;
+}
+
+.hs-container .hero-subtitle {
+    @apply text-xl;
+}
+
+.hs-container .hero-cta-section {
+    @apply flex items-center gap-5;
+}
+
+.hs-container .hero-image {
+    @apply object-cover w-full aspect-square md:aspect-video rounded-xl;
+}
+
+.hero-cta-section .btn{
+    @apply px-8 py-2 xl:px-15 xl:py-3 xl:rounded-2xl text-xl;
+}
