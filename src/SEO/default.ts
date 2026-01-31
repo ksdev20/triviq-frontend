@@ -1,16 +1,16 @@
 const frontendUrl = import.meta.env.PUBLIC_FRONTEND_URL;
 const commonDesc = "Site-Description";
-const siteName = "Site-Name";
-const siteImg = frontendUrl + "/url";
-const author = "Company Team";
+const siteName = "TrivIQ";
+const siteImg = frontendUrl + "/cta-1.png";
+const author = "TrivIQ Private Limited";
 
 export const defaultHead = {
     title: siteName,
     description: commonDesc,
-    keywords: "keywords",
+    keywords: "trivia, quix, real-time, multiplayer",
     url: frontendUrl,
     imageUrl: siteImg,
-    imageAlt: "Site Image",
+    imageAlt: "Welcom to TrivIQ",
     author: author,
     jsonLd: {
         "@context": "https://schema.org",
@@ -19,7 +19,7 @@ export const defaultHead = {
         "url": frontendUrl,
         "image": siteImg,
         "description": commonDesc,
-        "alternativeName": "Anime Listicle hub",
+        "alternativeName": "Real-Time Trivia Website",
         "publisher": {
             "name": author,
             "url": frontendUrl,
