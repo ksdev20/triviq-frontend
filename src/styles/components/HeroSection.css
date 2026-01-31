@@ -27,7 +27,7 @@
 }
 
 .hs-container .hero-image {
-    @apply object-cover w-full aspect-square md:aspect-video rounded-xl;
+    @apply object-cover object-center w-full aspect-video md:aspect-video rounded-xl;
 }
 
 .hero-cta-section .btn{

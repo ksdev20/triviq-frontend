@@ -1,4 +1,26 @@
-import { playLink, signupLink } from "../../config/components/Navbar";
+export const playBtn = {
+  label: "Play",
+  link: "/lobby",
+  variant: "primary",
+};
+
+export const heroSection = {
+  h1: "Test your knowledge against players worldwide",
+  subtitle:
+    "Challenge friends in real-time trivia battles. Compete across categories, climb the rankings, and prove you know more than anyoneelse.",
+  img: {
+    url: "/cta-1.png",
+    alt: "Hero Section Image",
+  },
+  ctaButtons: [
+    playBtn,
+    {
+      label: "Learn More",
+      link: "/about",
+      variant: "outlined",
+    },
+  ],
+};
 
 export const featuresSection = {
   textObj: {
@@ -13,21 +35,21 @@ export const featuresSection = {
         head: "Real-time multiplayer battles",
         subtitle: "Face opponents in instant trivia matches",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/feature-1.png",
     },
     {
       textObj: {
         head: "Cross-platform everywhere",
         subtitle: "Switch between devices without losing progress",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/feature-2.png",
     },
     {
       textObj: {
         head: "Thousands of questions",
         subtitle: "Explore diverse categories and endless topics",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/feature-3.png",
     },
   ],
 };
@@ -45,7 +67,7 @@ export const rewardsSection = {
         head: "Challenge your friends",
         subtitle: "Send invites and settle debates",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/reward-1.png",
     },
     {
       textObj: {
@@ -53,7 +75,7 @@ export const rewardsSection = {
         head: "Compete worldwide",
         subtitle: "Test yourself against skilled players",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/reward-2.png",
     },
     {
       textObj: {
@@ -61,7 +83,7 @@ export const rewardsSection = {
         head: "Expand your mind",
         subtitle: "Learn while you play and climb ranks",
       },
-      img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+      img: "/reward-3.png",
     },
   ],
 };
@@ -102,12 +124,6 @@ export const testimonialSection = {
   ],
 };
 
-export const playBtn = {
-  label: "Play",
-  link: "/lobby",
-  variant: "primary",
-};
-
 export const signupBtn = {
   label: "Sign up",
   link: "/sign-up",
@@ -122,7 +138,7 @@ export const ctaSection1 = {
   },
   ctaButtons: [playBtn, signupBtn],
   img: {
-    url: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+    url: "/hero.jpeg",
     alt: "Cta Section Image",
   },
 };
@@ -171,19 +187,19 @@ export const questionsSection = {
   contactBtn: {
     label: "Contact",
     link: "/contact",
-    variant: "outlined"
-  }
+    variant: "outlined",
+  },
 };
-
 
 export const newsLetterSection = {
   textObj: {
     head: "Stay updated on new tournaments",
-    subtitle: "Get notified about upcoming events, new categories, and exclusive challenges.",
+    subtitle:
+      "Get notified about upcoming events, new categories, and exclusive challenges.",
   },
   note: "By clicking Subscribe you're confirming that you agree with our ",
   img: {
-    url: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
-    alt: "NewsLetter Section Image"
-  }
-}
+    url: "/newsletter.png",
+    alt: "NewsLetter Section Image",
+  },
+};

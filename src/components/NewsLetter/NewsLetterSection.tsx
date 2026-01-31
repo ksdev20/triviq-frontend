@@ -4,7 +4,7 @@ export function NewsLetterSection() {
   const { textObj, note, img } = newsLetterSection;
   const { url: imageUrl, alt } = img;
   return (
-    <section className="news-letter-section f-col consistent-padding-x consistent-padding-y">
+    <section className="news-letter-section f-col consistent-padding-x consistent-padding-y bg-[var(--secondary)]">
       <div className="nls-container">
         <img
           src={imageUrl}
