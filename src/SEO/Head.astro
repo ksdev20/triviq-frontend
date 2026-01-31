@@ -21,6 +21,7 @@ const fontImpUrl =
 ---
 
 <head>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
   <meta name="yandex-verification" content="37d815aa8340b159" />
   <title>{title}</title>
   <meta charset="UTF-8" />
@@ -38,16 +39,13 @@ const fontImpUrl =
   <meta name="og:title" content={title} />
   <meta name="og:description" content={description} />
   <meta name="og:site_name" content={title} />
-  <meta
-    name="og:image"
-    content={imageUrl}
-  />
+  <meta name="og:image" content={imageUrl} />
   <meta name="og:image:width" content="1200" />
   <meta name="og:image:height" content="630" />
   <meta name="og:image:alt" content={imageAlt} />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content={'@' + title.toLowerCase()} />
+  <meta name="twitter:site" content={"@" + title.toLowerCase()} />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={imageUrl} />
@@ -58,9 +56,8 @@ const fontImpUrl =
     rel="sitemap"
     type="application/xml"
     title="AniKawa Sitemap"
-    href={url + "/sitemap.xml"}
+    href={"/sitemap.xml"}
   />
-  <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link
     rel="icon"
