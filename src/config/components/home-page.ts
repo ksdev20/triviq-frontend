@@ -1,3 +1,5 @@
+import { playLink, signupLink } from "../../config/components/Navbar";
+
 export const featuresSection = {
   textObj: {
     top: "Features",
@@ -60,6 +62,42 @@ export const rewardsSection = {
         subtitle: "Learn while you play and climb ranks",
       },
       img: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+    },
+  ],
+};
+
+export const testimonialSection = {
+  textObj: {
+    head: "WHAT PLAYERS SAY",
+    subtitle: "Read from our communuity",
+  },
+  reviews: [
+    {
+      stars: 5,
+      text: "The competition here is real and the matches are fast. I've never felt more challenged.",
+      reviewer: {
+        profile: "/review-1-profile.jpg",
+        name: "Marcus Chen",
+        extra: "Competitive gamer",
+      },
+    },
+    {
+      stars: 5,
+      text: "I play every day now. The variety of questions keeps me coming back for more. ",
+      reviewer: {
+        profile: "/review-2-profile.jpg",
+        name: "Sarah Mitchell",
+        extra: "Trivia enthusiast",
+      },
+    },
+    {
+      stars: 5,
+      text: "Finally found a platform where my knowledge actually matters against real opponents.",
+      reviewer: {
+        profile: "/review-3-profile.jpg",
+        name: "James Rodriguez",
+        extra: "Strategy player",
+      },
     },
   ],
 };
