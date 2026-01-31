@@ -174,3 +174,16 @@ export const questionsSection = {
     variant: "outlined"
   }
 };
+
+
+export const newsLetterSection = {
+  textObj: {
+    head: "Stay updated on new tournaments",
+    subtitle: "Get notified about upcoming events, new categories, and exclusive challenges.",
+  },
+  note: "By clicking Subscribe you're confirming that you agree with our ",
+  img: {
+    url: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+    alt: "NewsLetter Section Image"
+  }
+}
