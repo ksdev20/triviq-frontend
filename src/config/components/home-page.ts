@@ -120,12 +120,57 @@ export const ctaSection1 = {
     subtitle:
       "No downloads needed. Jump into a match in seconds and begin your climb.",
   },
-  ctaButtons: [
-    playBtn,
-    signupBtn,
-  ],
+  ctaButtons: [playBtn, signupBtn],
   img: {
     url: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
-    alt: "Cta Section Image"
+    alt: "Cta Section Image",
+  },
+};
+
+export const questionsSection = {
+  textObj: {
+    head: "Questions",
+    subtitle: "Everything you need to know about playing",
+  },
+  questions: [
+    {
+      question: "How do I start playing?",
+      answer:
+        "Create an account or sign in with your existing credentials. Choose a category, find an opponent, and the match begins instantly. You'll answer questions in real-time while competing against other players.",
+    },
+    {
+      question: "Can I play on mobile?",
+      answer:
+        "Yes. Our platform works seamlessly across phones, tablets, and computers. Your progress syncs automatically so you can switch devices without any interruption.",
+    },
+    {
+      question: "What categories are available?",
+      answer:
+        "We offer over fifty categories ranging from history and science to pop culture and sports. New topics are added regularly to keep the competition fresh and engaging.",
+    },
+    {
+      question: "How are rankings calculated?",
+      answer:
+        "Your rank depends on wins, accuracy, and speed. The more matches you win and the faster you answer correctly, the higher you climb. Rankings reset monthly so everyone has a chance to compete.",
+    },
+    {
+      question: "Can I challenge friends?",
+      answer:
+        "Absolutely. Send invites to friends and play private matches whenever you want. You can also see how your scores compare on the leaderboards.",
+    },
+    {
+      question: "Is the platform free?",
+      answer:
+        "Yes, all core features are completely free. Play unlimited matches, compete in tournaments, and climb the rankings without spending anything.",
+    },
+  ],
+  textObj2: {
+    head: "Need more help?",
+    subtitle: "Reach out to our team anytime",
+  },
+  contactBtn: {
+    label: "Contact",
+    link: "/contact",
+    variant: "outlined"
   }
 };
