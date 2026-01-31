@@ -101,3 +101,31 @@ export const testimonialSection = {
     },
   ],
 };
+
+export const playBtn = {
+  label: "Play",
+  link: "/lobby",
+  variant: "primary",
+};
+
+export const signupBtn = {
+  label: "Sign up",
+  link: "/sign-up",
+  variant: "outlined",
+};
+
+export const ctaSection1 = {
+  textObj: {
+    head: "START PLAYING RIGHT NOW",
+    subtitle:
+      "No downloads needed. Jump into a match in seconds and begin your climb.",
+  },
+  ctaButtons: [
+    playBtn,
+    signupBtn,
+  ],
+  img: {
+    url: "https://cdn.pixabay.com/photo/2025/11/28/14/40/sea-9983074_1280.jpg",
+    alt: "Cta Section Image"
+  }
+};

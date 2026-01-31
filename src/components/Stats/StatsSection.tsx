@@ -2,7 +2,7 @@ import '../../styles/components/stats-section.css';
 
 export function StatsSection() {
   return (
-    <section className="stats-section consistent-padding-x">
+    <section className="stats-section consistent-padding-x consistent-padding-y">
       <div className="stats-text">
         <h2>Millions of players trust us for their trivia fix</h2>
         <p>Our community grows stronger every day. Players worldwide compete, learn, and connect through trivia battles that matter.</p>

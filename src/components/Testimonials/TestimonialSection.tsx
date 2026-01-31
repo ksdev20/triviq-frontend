@@ -5,7 +5,7 @@ import { ReviewCard } from "./ReviewCard";
 export function TestimonialSection() {
     const { textObj, reviews} = testimonialSection;
   return (
-    <section className="testimonial-section consistent-padding-x">
+    <section className="testimonial-section consistent-padding-x consistent-padding-y">
         <TopTextSection textObj={textObj} />
         <ul className="review-cards">
             {reviews.map((i, idx) => <ReviewCard key={idx} review={i} />)}

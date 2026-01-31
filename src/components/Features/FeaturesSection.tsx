@@ -5,7 +5,7 @@ import "../../styles/components/features-section.css";
 
 export function FeaturesSection() {
   return (
-    <section className="features-section consistent-padding-x">
+    <section className="features-section consistent-padding-x consistent-padding-y">
       <TopTextSection textObj={featuresSection.textObj} />
       <div className="features-cards">
         <div className="g1">

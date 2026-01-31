@@ -62,6 +62,26 @@ svg {
     @apply px-10 sm:px-20 md:px-30 lg:px-40 xl:px-60;
 }
 
+.consistent-padding-y{
+    @apply py-10 sm:py-20 lg:py-30;
+}
+
+.consistent-text-section{
+    @apply flex flex-col items-center gap-3 sm:gap-5 md:gap-6;
+}
+
+.consistent-text-section{
+    @apply lg:text-xl
+}
+
+.flex-col-icenter{
+    @apply flex flex-col items-center;
+}
+
+.text-3{
+    @apply text-base lg:text-xl;
+}
+
 h2{
     font-family: 'Space Mono';
     @apply text-3xl md:text-4xl xl:text-5xl font-bold;
@@ -69,7 +89,7 @@ h2{
 
 /* TESTIMONIALS SECTION */
 .testimonial-section{
-    @apply py-10 sm:py-20 w-full flex flex-col items-center gap-10 lg:gap-20;
+    @apply w-full flex flex-col items-center gap-10 lg:gap-20;
 }
 
 .review-cards{
@@ -83,4 +103,9 @@ h2{
 
 .review-card img{
     @apply w-12 md:w-15 aspect-square object-cover object-center rounded-full;
+}
+
+
+.cta-section .btn{
+    @apply rounded-xl px-10 py-2 xl:px-15 xl:py-3;
 }
