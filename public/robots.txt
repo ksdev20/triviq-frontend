@@ -1,0 +1,17 @@
+# robots.txt for playtriviq.netlify.app
+# Allow major engines full access
+User-agent: *
+Allow: /
+
+User-agent: Google-Safety
+allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# Block sensitive directories
+User-agent: *
+Disallow: /lobby/
+Disallow: /about/
+Disallow: /tos/
+Disallow: /privacy-policy/

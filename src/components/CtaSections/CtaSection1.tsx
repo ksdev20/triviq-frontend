@@ -20,7 +20,7 @@ export function CtaSection1() {
           ))}
         </div>
       </div>
-      <img src={url} alt={alt} className="rounded-xl" />
+      <img src={url} alt={alt} className="rounded-xl" loading="lazy" decoding="async" fetchPriority="low"/>
     </section>
   );
 }

@@ -9,14 +9,17 @@ export function NewsLetterSection() {
         <img
           src={imageUrl}
           alt={alt}
+          loading="lazy"
+          decoding="async"
+          fetchPriority="low"
         />
         <div className="text-overlay f-col">
           <div className="text-overlay-container f-col">
             <TopTextSection textObj={textObj} customClass="consistent-text-section"/>
-            <form className="f-col gap-3 md:gap-6">
+            <form name="newsletter" method="POST" className="f-col gap-3 md:gap-6" data-netlify="true" autoComplete="true">
               <div className="nl-main">
-                <input type="text" placeholder="Enter your email" />
-                <button className="btn text-black bg-white px-5 py-3">
+                <input type="email" name="email" placeholder="Enter your email" required />
+                <button type="submit" className="btn text-black bg-white px-5 py-3">
                   Subscribe
                 </button>
               </div>

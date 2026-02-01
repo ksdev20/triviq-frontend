@@ -15,7 +15,7 @@ export function FeatureCard({
   return (
     <div className={`feature-card ${variant}`}>
       <TopTextSection tag="h3" textObj={obj.textObj} />
-      <img src={obj.img} alt="" loading="lazy" decoding="async" />
+      <img src={obj.img} alt="" loading="lazy" decoding="async" fetchPriority="low" />
     </div>
   );
 }

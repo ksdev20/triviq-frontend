@@ -19,7 +19,6 @@ export const defaultHead = {
         "url": frontendUrl,
         "image": siteImg,
         "description": commonDesc,
-        "alternativeName": "Real-Time Trivia Website",
         "publisher": {
             "name": author,
             "url": frontendUrl,

@@ -13,14 +13,18 @@ export function HeroSection() {
             {subtitle}
           </p>
           <div className="hero-cta-section">
-            
-            {ctaButtons.map((i, idx) => <a key={idx} href={i.link} className={"btn " + i.variant}>{i.label}</a>)}
+            <a href={ctaButtons[0].link} className="btn primary">{ctaButtons[0].label}</a>
+            <a href={ctaButtons[1].link} className="btn outlined" aria-label={"Learn more about what TrivIQ is and how it works."}>
+              Learn More <div className="sr-only">and how TrivIQ works</div>
+            </a>
           </div>
         </div>
         <img
           className="hero-image"
           src={url}
           alt={alt}
+          fetchPriority='high'
+          decoding='async'
         />
       </div>
     </section>

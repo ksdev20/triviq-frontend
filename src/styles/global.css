@@ -1,6 +1,4 @@
 @import "tailwindcss";
-@plugin '../../hero.ts';
-@source '../../node_modules/@heroui/theme/dist/**/*.{js, ts, jsx, tsx}';
 @config '../../tailwind.config.mjs';
 
 * {
@@ -14,8 +12,8 @@
     --navbar-sidebar: #fef3c7;
     --navbar-secondary-text: #374151;
     --accent: #1E3A8A;
-    --primary: #3b82f6;
-    --primary-hover: #2563eb;
+    --primary: 	#5A0FC8;
+    --primary-hover: #7A2FE8;
     --secondary: #d2e7f9;
     --light-text: #000;
     --dark-text: #fff;
