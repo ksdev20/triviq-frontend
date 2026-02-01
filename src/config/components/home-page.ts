@@ -9,7 +9,7 @@ export const heroSection = {
   subtitle:
     "Challenge friends in real-time trivia battles. Compete across categories, climb the rankings, and prove you know more than anyoneelse.",
   img: {
-    url: "/cta-1.png",
+    url: "https://ik.imagekit.io/nwstforna/Triviq/hero-1.avif",
     alt: "Hero Section Image",
   },
   ctaButtons: [
@@ -35,21 +35,21 @@ export const featuresSection = {
         head: "Real-time multiplayer battles",
         subtitle: "Face opponents in instant trivia matches",
       },
-      img: "/feature-1.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/feature-1.avif",
     },
     {
       textObj: {
         head: "Cross-platform everywhere",
         subtitle: "Switch between devices without losing progress",
       },
-      img: "/feature-2.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/feature-2.avif",
     },
     {
       textObj: {
         head: "Thousands of questions",
         subtitle: "Explore diverse categories and endless topics",
       },
-      img: "/feature-3.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/feature-3.avif",
     },
   ],
 };
@@ -67,7 +67,7 @@ export const rewardsSection = {
         head: "Challenge your friends",
         subtitle: "Send invites and settle debates",
       },
-      img: "/reward-1.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/reward-1.avif",
     },
     {
       textObj: {
@@ -75,7 +75,7 @@ export const rewardsSection = {
         head: "Compete worldwide",
         subtitle: "Test yourself against skilled players",
       },
-      img: "/reward-2.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/reward-2.avif",
     },
     {
       textObj: {
@@ -83,7 +83,7 @@ export const rewardsSection = {
         head: "Expand your mind",
         subtitle: "Learn while you play and climb ranks",
       },
-      img: "/reward-3.png",
+      img: "https://ik.imagekit.io/nwstforna/Triviq/reward-3.avif",
     },
   ],
 };
@@ -98,7 +98,7 @@ export const testimonialSection = {
       stars: 5,
       text: "The competition here is real and the matches are fast. I've never felt more challenged.",
       reviewer: {
-        profile: "/review-1-profile.jpg",
+        profile: "https://ik.imagekit.io/nwstforna/Triviq/review-1.avif",
         name: "Marcus Chen",
         extra: "Competitive gamer",
       },
@@ -107,7 +107,7 @@ export const testimonialSection = {
       stars: 5,
       text: "I play every day now. The variety of questions keeps me coming back for more. ",
       reviewer: {
-        profile: "/review-2-profile.jpg",
+        profile: "https://ik.imagekit.io/nwstforna/Triviq/review-3.avif",
         name: "Sarah Mitchell",
         extra: "Trivia enthusiast",
       },
@@ -116,7 +116,7 @@ export const testimonialSection = {
       stars: 5,
       text: "Finally found a platform where my knowledge actually matters against real opponents.",
       reviewer: {
-        profile: "/review-3-profile.jpg",
+        profile: "https://ik.imagekit.io/nwstforna/Triviq/review-2.avif",
         name: "James Rodriguez",
         extra: "Strategy player",
       },
@@ -138,7 +138,7 @@ export const ctaSection1 = {
   },
   ctaButtons: [playBtn, signupBtn],
   img: {
-    url: "/hero.jpeg",
+    url: "https://ik.imagekit.io/nwstforna/Triviq/cta-1.avif",
     alt: "Cta Section Image",
   },
 };
@@ -199,7 +199,7 @@ export const newsLetterSection = {
   },
   note: "By clicking Subscribe you're confirming that you agree with our ",
   img: {
-    url: "/newsletter.png",
+    url: "https://ik.imagekit.io/nwstforna/Triviq/newsletter.avif",
     alt: "NewsLetter Section Image",
   },
 };
